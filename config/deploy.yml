@@ -2,7 +2,7 @@
 service: my_app
 
 # Name of the container image.
-image: your-user/my_app
+image: franciscoapedrosa/my_app
 
 # Deploy to these servers.
 servers:
@@ -25,7 +25,7 @@ proxy:
 registry:
   # Specify the registry server, if you're not using Docker Hub
   # server: registry.digitalocean.com / ghcr.io / ...
-  username: your-user
+  username: franciscoapedrosa
 
   # Always use an access token rather than real password when possible.
   password:
